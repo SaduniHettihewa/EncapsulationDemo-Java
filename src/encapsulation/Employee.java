@@ -1,12 +1,13 @@
 
 package encapsulation;
 
-
+// Employee class 
 public class Employee {
    private  String name;
    private String ID;
    private  double salary;
 
+   //getters - using getters access private details
     public String getName() {
         return name;
     }
@@ -18,7 +19,7 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
-
+//setters - using setter method set data 
     public void setName(String name) {
         this.name = name;
     }
